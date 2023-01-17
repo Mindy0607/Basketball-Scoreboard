@@ -1,0 +1,81 @@
+@font-face{
+    src:url("CursedTimerULiL.ttf");
+    font-family: CursedTimerULiL;
+}
+body {
+    background: #1f2041;
+    color: white;
+    font-family: 'Rowdies', cursive;
+    font-size: 40px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#home{
+    border: 2px solid black;
+    background: black;
+    height: 120px;
+    width: 155px;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-family: CursedTimerULiL;
+    font-size: 90px;
+    color: #F94F6D;
+    text-align: center;
+    line-height: 127px;
+}
+
+#Guest{
+    border: 2px solid black;
+    background: black;
+    height: 120px;
+    width: 155px;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-family: CursedTimerULiL;
+    font-size: 90px;
+    color: #F94F6D;
+    text-align: center;
+    line-height: 127px;
+}
+
+.button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.score{
+    background: #1f2041;
+    border: 2px solid #9AABD8;
+    font-size: 20px;
+    color:#9AABD8;
+    height: 45px;
+    width: 45px;
+    font-family: CursedTimerULiL;
+    border-radius: 5px;
+}  
+
+#newGame{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color:white;
+    background: #1f2041;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: bolder;
+}
